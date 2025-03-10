@@ -1,0 +1,809 @@
+[2025-03-06 13:25:58] ERROR PropertiesFile - File not found
+java.io.FileNotFoundException: .\src\main\resources\Config\config.properties (The system cannot find the path specified)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:216)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:157)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:111)
+	at com.prime.utilities.PropertiesFile.<init>(PropertiesFile.java:21)
+	at com.prime.base.BaseClass.loadConfig(BaseClass.java:38)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:390)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:325)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+	at org.testng.TestNG.runSuites(TestNG.java:1114)
+	at org.testng.TestNG.run(TestNG.java:1082)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
+[2025-03-06 13:26:44] ERROR PropertiesFile - File not found
+java.io.FileNotFoundException: .\src\main\resources\configs\config.properties (The system cannot find the path specified)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:216)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:157)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:111)
+	at com.prime.utilities.PropertiesFile.<init>(PropertiesFile.java:21)
+	at com.prime.base.BaseClass.loadConfig(BaseClass.java:38)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:390)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:325)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+	at org.testng.TestNG.runSuites(TestNG.java:1114)
+	at org.testng.TestNG.run(TestNG.java:1082)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
+[2025-03-06 13:43:27] INFO  ActionsClass - Click Action is performed
+[2025-03-06 13:43:27] INFO  LoginTest - products list are displayed
+[2025-03-06 13:43:27] INFO  ActionsClass - Click Action is performed
+[2025-03-06 13:43:27] INFO  ActionsClass - Click Action is performed
+[2025-03-06 13:43:27] INFO  ActionsClass - Successfully Found element at
+[2025-03-06 13:43:27] INFO  ActionsClass - The element is Displayed
+[2025-03-06 13:52:11] INFO  ListenersClass - Test started : LogUser
+[2025-03-06 13:52:13] INFO  ActionsClass - Click Action is performed
+[2025-03-06 13:52:13] INFO  LoginTest - products list are displayed
+[2025-03-06 13:52:13] INFO  ListenersClass - Test case passed : LogUser
+[2025-03-06 13:52:13] INFO  ListenersClass - Test started : veryfyLogedOut
+[2025-03-06 13:52:13] INFO  ActionsClass - Click Action is performed
+[2025-03-06 13:52:13] INFO  ActionsClass - Click Action is performed
+[2025-03-06 13:52:13] INFO  ActionsClass - Successfully Found element at
+[2025-03-06 13:52:13] INFO  ActionsClass - The element is Displayed
+[2025-03-06 13:52:13] INFO  ListenersClass - Test case passed : veryfyLogedOut
+[2025-03-06 13:56:29] INFO  ListenersClass - Test started : LogUser
+[2025-03-06 13:56:30] INFO  ActionsClass - Click Action is performed
+[2025-03-06 13:56:30] INFO  LoginTest - products list are displayed
+[2025-03-06 13:56:30] INFO  ListenersClass - Test case passed : LogUser
+[2025-03-06 13:56:30] INFO  ListenersClass - Test started : veryfyLogedOut
+[2025-03-06 13:56:30] INFO  ActionsClass - Click Action is performed
+[2025-03-06 13:56:30] INFO  ActionsClass - Click Action is performed
+[2025-03-06 13:56:30] INFO  ActionsClass - Successfully Found element at
+[2025-03-06 13:56:30] INFO  ActionsClass - The element is Displayed
+[2025-03-06 13:56:31] ERROR ListenersClass - Test case failed : veryfyLogedOut
+[2025-03-06 14:13:15] INFO  ListenersClass - Test started : veryfyLogedOut
+[2025-03-06 14:13:20] ERROR ActionsClass - Click Action is not performed
+[2025-03-06 14:16:26] INFO  ListenersClass - Test started : veryfyLogedOut
+[2025-03-06 14:16:31] ERROR ActionsClass - Click Action is not performed
+[2025-03-06 14:23:20] INFO  ListenersClass - Test started : veryfyLogedOut
+[2025-03-06 14:23:25] ERROR ActionsClass - Click Action is not performed
+[2025-03-06 14:31:15] INFO  ListenersClass - Test started : veryfyLogedOut
+[2025-03-06 14:31:20] ERROR ActionsClass - Click Action is not performed
+[2025-03-06 14:31:20] ERROR ListenersClass - Test case failed : veryfyLogedOut
+[2025-03-06 14:37:12] INFO  ListenersClass - Test started : veryfyLogedOut
+[2025-03-06 14:37:17] ERROR ActionsClass - Click Action is not performed
+[2025-03-06 14:37:17] ERROR ListenersClass - Test case failed : veryfyLogedOut
+[2025-03-06 14:42:49] INFO  ListenersClass - Test started : veryfyLogedOut
+[2025-03-06 14:42:54] ERROR ActionsClass - Click Action is not performed
+[2025-03-06 14:42:54] ERROR ListenersClass - Test case failed : veryfyLogedOut
+[2025-03-06 14:46:48] INFO  ListenersClass - Test started : veryfyLogedOut
+[2025-03-06 14:46:53] ERROR ActionsClass - Click Action is not performed
+[2025-03-06 14:46:53] ERROR ListenersClass - Test case failed : veryfyLogedOut
+[2025-03-06 14:47:51] INFO  ListenersClass - Test started : veryfyLogedOut
+[2025-03-06 14:47:56] ERROR ActionsClass - Click Action is not performed
+[2025-03-06 14:47:56] ERROR ListenersClass - Test case failed : veryfyLogedOut
+[2025-03-06 14:52:14] INFO  ListenersClass - Test started : veryfyLogedOut
+[2025-03-06 14:52:19] ERROR ActionsClass - Click Action is not performed
+[2025-03-06 14:53:38] INFO  ListenersClass - Test started : veryfyLogedOut
+[2025-03-06 14:53:43] ERROR ActionsClass - Click Action is not performed
+[2025-03-06 14:55:19] INFO  ListenersClass - Test started : veryfyLogedOut
+[2025-03-06 14:55:24] ERROR ActionsClass - Click Action is not performed
+[2025-03-06 15:16:21] INFO  ListenersClass - Test started : veryfyLogedOut
+[2025-03-06 15:16:26] ERROR ActionsClass - Click Action is not performed
+[2025-03-06 15:17:40] INFO  ListenersClass - Test started : veryfyLogedOut
+[2025-03-06 15:17:45] ERROR ActionsClass - Click Action is not performed
+[2025-03-06 15:22:44] INFO  ListenersClass - Test started : veryfyErrorText
+[2025-03-06 15:22:44] INFO  ActionsClass - Click Action is performed
+[2025-03-06 15:22:45] INFO  ActionsClass - Successfully Found element at
+[2025-03-06 15:22:45] INFO  ActionsClass - The element is Displayed
+[2025-03-06 15:22:45] INFO  ListenersClass - Test case passed : veryfyErrorText
+[2025-03-06 15:50:47] INFO  ListenersClass - Test started : veryfyErrorText
+[2025-03-06 15:50:47] INFO  ActionsClass - Click Action is performed
+[2025-03-06 15:50:47] INFO  ActionsClass - Successfully Found element at
+[2025-03-06 15:50:47] INFO  ActionsClass - The element is Displayed
+[2025-03-06 15:50:47] INFO  ListenersClass - Test case passed : veryfyErrorText
+[2025-03-06 15:51:13] INFO  ListenersClass - Test started : LogUser
+[2025-03-06 15:51:14] INFO  ActionsClass - Click Action is performed
+[2025-03-06 15:51:14] INFO  ActionsClass - Click Action is performed
+[2025-03-06 15:51:14] INFO  ListenersClass - Test started : veryfyLogedOut
+[2025-03-06 15:51:14] INFO  ActionsClass - Click Action is performed
+[2025-03-06 15:51:15] INFO  ActionsClass - Click Action is performed
+[2025-03-06 15:51:15] INFO  ActionsClass - Successfully Found element at
+[2025-03-06 15:51:15] INFO  ActionsClass - The element is Displayed
+[2025-03-06 15:51:15] INFO  ListenersClass - Test case passed : veryfyLogedOut
+[2025-03-07 07:55:02] INFO  ListenersClass - Test started : LogUser
+[2025-03-07 07:55:03] INFO  ActionsClass - Click Action is performed
+[2025-03-07 07:55:03] INFO  ActionsClass - Click Action is performed
+[2025-03-07 07:55:08] ERROR ActionsClass - Click Action is not performed
+[2025-03-07 07:55:08] INFO  ListenersClass - Test started : ViewCart
+[2025-03-07 07:55:08] INFO  ActionsClass - Click Action is performed
+[2025-03-07 07:55:08] INFO  LoginTest - Items are available in cart. 
+[2025-03-07 07:55:08] INFO  ListenersClass - Test case passed : ViewCart
+[2025-03-07 07:55:08] INFO  ListenersClass - Test started : veryfyLogedOut
+[2025-03-07 07:55:08] INFO  ActionsClass - Click Action is performed
+[2025-03-07 07:55:08] INFO  ActionsClass - Click Action is performed
+[2025-03-07 07:55:09] INFO  ActionsClass - Successfully Found element at
+[2025-03-07 07:55:09] INFO  ActionsClass - The element is Displayed
+[2025-03-07 07:55:09] INFO  ListenersClass - Test case passed : veryfyLogedOut
+[2025-03-07 07:57:12] INFO  ListenersClass - Test started : LogUser
+[2025-03-07 07:57:13] INFO  ActionsClass - Click Action is performed
+[2025-03-07 07:57:13] INFO  ActionsClass - Click Action is performed
+[2025-03-07 07:57:13] INFO  ActionsClass - Click Action is performed
+[2025-03-07 07:57:14] INFO  ListenersClass - Test started : ViewCart
+[2025-03-07 07:57:14] INFO  ActionsClass - Click Action is performed
+[2025-03-07 07:57:14] INFO  LoginTest - Items are available in cart. 
+[2025-03-07 07:57:14] INFO  ListenersClass - Test case passed : ViewCart
+[2025-03-07 07:57:14] INFO  ListenersClass - Test started : veryfyLogedOut
+[2025-03-07 07:57:14] INFO  ActionsClass - Click Action is performed
+[2025-03-07 07:57:14] INFO  ActionsClass - Click Action is performed
+[2025-03-07 07:57:14] INFO  ActionsClass - Successfully Found element at
+[2025-03-07 07:57:14] INFO  ActionsClass - The element is Displayed
+[2025-03-07 07:57:14] INFO  ListenersClass - Test case passed : veryfyLogedOut
+[2025-03-07 08:13:30] INFO  ListenersClass - Test started : LogUser
+[2025-03-07 08:13:30] INFO  ActionsClass - Click Action is performed
+[2025-03-07 08:13:30] INFO  ActionsClass - Click Action is performed
+[2025-03-07 08:13:31] INFO  ActionsClass - Click Action is performed
+[2025-03-07 08:13:31] INFO  ListenersClass - Test started : ViewCart
+[2025-03-07 08:13:31] INFO  ActionsClass - Click Action is performed
+[2025-03-07 08:13:31] INFO  LoginTest - Items are available in cart. 
+[2025-03-07 08:13:31] INFO  ListenersClass - Test case passed : ViewCart
+[2025-03-07 08:13:31] INFO  ListenersClass - Test started : RemoveItem
+[2025-03-07 08:13:31] INFO  ActionsClass - Click Action is performed
+[2025-03-07 08:13:32] INFO  ListenersClass - Test started : veryfyLogedOut
+[2025-03-07 08:13:32] INFO  ActionsClass - Click Action is performed
+[2025-03-07 08:13:32] INFO  ActionsClass - Click Action is performed
+[2025-03-07 08:13:32] INFO  ActionsClass - Successfully Found element at
+[2025-03-07 08:13:32] INFO  ActionsClass - The element is Displayed
+[2025-03-07 08:13:32] INFO  ListenersClass - Test case passed : veryfyLogedOut
+[2025-03-07 08:14:27] INFO  ListenersClass - Test started : LogUser
+[2025-03-07 08:14:28] INFO  ActionsClass - Click Action is performed
+[2025-03-07 08:14:28] INFO  ActionsClass - Click Action is performed
+[2025-03-07 08:14:28] INFO  ActionsClass - Click Action is performed
+[2025-03-07 08:14:28] INFO  LoginTest - Item added to cart
+[2025-03-07 08:14:28] INFO  ListenersClass - Test case passed : LogUser
+[2025-03-07 08:14:28] INFO  ListenersClass - Test started : ViewCart
+[2025-03-07 08:14:28] INFO  ActionsClass - Click Action is performed
+[2025-03-07 08:14:28] INFO  LoginTest - Items are available in cart. 
+[2025-03-07 08:14:28] INFO  ListenersClass - Test case passed : ViewCart
+[2025-03-07 08:14:28] INFO  ListenersClass - Test started : RemoveItem
+[2025-03-07 08:14:28] INFO  ActionsClass - Click Action is performed
+[2025-03-07 08:14:29] INFO  LoginTest - Item removed from cart
+[2025-03-07 08:14:29] INFO  ListenersClass - Test case passed : RemoveItem
+[2025-03-07 08:14:29] INFO  ListenersClass - Test started : veryfyLogedOut
+[2025-03-07 08:14:29] INFO  ActionsClass - Click Action is performed
+[2025-03-07 08:14:29] INFO  ActionsClass - Click Action is performed
+[2025-03-07 08:14:29] INFO  ActionsClass - Successfully Found element at
+[2025-03-07 08:14:29] INFO  ActionsClass - The element is Displayed
+[2025-03-07 08:14:29] INFO  ListenersClass - Test case passed : veryfyLogedOut
+[2025-03-07 09:20:27] INFO  ListenersClass - Test started : LogUser
+[2025-03-07 09:20:28] INFO  ActionsClass - Click Action is performed
+[2025-03-07 09:20:28] INFO  LoginTest - products list are displayed
+[2025-03-07 09:20:28] INFO  ListenersClass - Test case passed : LogUser
+[2025-03-07 09:20:28] INFO  ListenersClass - Test started : verifyLowToHighSorting
+[2025-03-07 09:20:28] INFO  LoginTest - Items sorted by price: 
+[2025-03-07 09:20:28] INFO  ListenersClass - Test case passed : verifyLowToHighSorting
+[2025-03-07 09:20:28] INFO  ListenersClass - Test started : veryfyLogedOut
+[2025-03-07 09:20:28] INFO  ActionsClass - Click Action is performed
+[2025-03-07 09:20:29] INFO  ActionsClass - Click Action is performed
+[2025-03-07 09:20:29] INFO  ActionsClass - Successfully Found element at
+[2025-03-07 09:20:29] INFO  ActionsClass - The element is Displayed
+[2025-03-07 09:20:29] INFO  ListenersClass - Test case passed : veryfyLogedOut
+[2025-03-07 10:09:32] INFO  ActionsClass - Click Action is performed
+[2025-03-07 10:09:33] INFO  HomePage - Valid Link: https://www.saucedemo.com/inventory.html# | Response Code: 404
+[2025-03-07 10:09:33] INFO  HomePage - Valid Link: https://www.saucedemo.com/inventory.html# | Response Code: 404
+[2025-03-07 10:09:33] INFO  HomePage - Valid Link: https://www.saucedemo.com/inventory.html# | Response Code: 404
+[2025-03-07 10:09:33] INFO  HomePage - Valid Link: https://www.saucedemo.com/inventory.html# | Response Code: 404
+[2025-03-07 10:09:33] INFO  HomePage - Valid Link: https://www.saucedemo.com/inventory.html# | Response Code: 404
+[2025-03-07 10:09:33] INFO  HomePage - Valid Link: https://www.saucedemo.com/inventory.html# | Response Code: 404
+[2025-03-07 10:09:33] INFO  IndexTest - products list are displayed
+[2025-03-07 10:19:39] INFO  ActionsClass - Click Action is performed
+[2025-03-07 10:19:40] ERROR HomePage -  Broken Link: https://www.saucedemo.com/inventory.html# | Response Code: 404
+[2025-03-07 10:19:40] ERROR HomePage -  Broken Link: https://www.saucedemo.com/inventory.html# | Response Code: 404
+[2025-03-07 10:19:40] ERROR HomePage -  Broken Link: https://www.saucedemo.com/inventory.html# | Response Code: 404
+[2025-03-07 10:19:40] ERROR HomePage -  Broken Link: https://www.saucedemo.com/inventory.html# | Response Code: 404
+[2025-03-07 10:19:40] ERROR HomePage -  Broken Link: https://www.saucedemo.com/inventory.html# | Response Code: 404
+[2025-03-07 10:19:40] ERROR HomePage -  Broken Link: https://www.saucedemo.com/inventory.html# | Response Code: 404
+[2025-03-07 10:19:40] INFO  IndexTest - products list are displayed
+[2025-03-07 10:19:41] INFO  IndexTest - Number of products displayed: 6
+[2025-03-07 10:19:41] INFO  IndexTest - Items sorted by price: 
+[2025-03-07 10:43:02] INFO  ListenersClass - Test started : Verifylink
+[2025-03-07 10:43:03] INFO  ActionsClass - Click Action is performed
+[2025-03-07 10:43:04] ERROR HomePage -  Broken Link: https://www.saucedemo.com/inventory.html# | Response Code: 404
+[2025-03-07 10:43:04] ERROR HomePage -  Broken Link: https://www.saucedemo.com/inventory.html# | Response Code: 404
+[2025-03-07 10:43:04] ERROR HomePage -  Broken Link: https://www.saucedemo.com/inventory.html# | Response Code: 404
+[2025-03-07 10:43:04] ERROR HomePage -  Broken Link: https://www.saucedemo.com/inventory.html# | Response Code: 404
+[2025-03-07 10:43:04] ERROR HomePage -  Broken Link: https://www.saucedemo.com/inventory.html# | Response Code: 404
+[2025-03-07 10:43:04] ERROR HomePage -  Broken Link: https://www.saucedemo.com/inventory.html# | Response Code: 404
+[2025-03-07 10:43:04] INFO  IndexTest - products list are displayed
+[2025-03-07 10:43:04] INFO  ListenersClass - Test case passed : Verifylink
+[2025-03-07 10:43:04] INFO  ListenersClass - Test started : verifyProductDetails
+[2025-03-07 10:43:04] INFO  ActionsClass - Click Action is performed
+[2025-03-07 10:43:04] INFO  ListenersClass - Test case passed : verifyProductDetails
+[2025-03-07 10:44:44] INFO  ListenersClass - Test started : Verifylink
+[2025-03-07 10:44:45] INFO  ActionsClass - Click Action is performed
+[2025-03-07 10:44:46] ERROR HomePage -  Broken Link: https://www.saucedemo.com/inventory.html# | Response Code: 404
+[2025-03-07 10:44:46] ERROR HomePage -  Broken Link: https://www.saucedemo.com/inventory.html# | Response Code: 404
+[2025-03-07 10:44:46] ERROR HomePage -  Broken Link: https://www.saucedemo.com/inventory.html# | Response Code: 404
+[2025-03-07 10:44:46] ERROR HomePage -  Broken Link: https://www.saucedemo.com/inventory.html# | Response Code: 404
+[2025-03-07 10:44:46] ERROR HomePage -  Broken Link: https://www.saucedemo.com/inventory.html# | Response Code: 404
+[2025-03-07 10:44:46] ERROR HomePage -  Broken Link: https://www.saucedemo.com/inventory.html# | Response Code: 404
+[2025-03-07 10:44:46] INFO  IndexTest - products list are displayed
+[2025-03-07 10:44:46] INFO  ListenersClass - Test case passed : Verifylink
+[2025-03-07 10:44:46] INFO  ListenersClass - Test started : verifyProductDetails
+[2025-03-07 10:44:46] INFO  ActionsClass - Click Action is performed
+[2025-03-07 10:44:46] INFO  IndexTest - actual :Sauce Labs Backpack
+ expected: Sauce Labs Backpack
+[2025-03-07 10:44:46] INFO  ListenersClass - Test case passed : verifyProductDetails
+[2025-03-07 13:02:26] INFO  ListenersClass - Test started : veryfyLogedOut
+[2025-03-07 13:02:31] ERROR ActionsClass - Click Action is not performed
+[2025-03-07 13:02:31] INFO  ListenersClass - Test started : accountManagement
+[2025-03-07 13:02:31] INFO  ActionsClass - Click Action is performed
+[2025-03-07 13:02:36] INFO  ListenersClass - Test started : accountManagement
+[2025-03-07 13:02:37] INFO  ActionsClass - Click Action is performed
+[2025-03-07 13:02:42] ERROR ActionsClass - Click Action is not performed
+[2025-03-07 13:06:36] INFO  ListenersClass - Test started : veryfyLogedOut
+[2025-03-07 13:06:41] ERROR ActionsClass - Click Action is not performed
+[2025-03-07 13:06:41] INFO  ListenersClass - Test started : accountManagement
+[2025-03-07 13:06:41] INFO  ActionsClass - Click Action is performed
+[2025-03-07 13:06:47] INFO  ListenersClass - Test started : accountManagement
+[2025-03-07 13:06:47] INFO  ActionsClass - Click Action is performed
+[2025-03-07 13:06:52] ERROR ActionsClass - Click Action is not performed
+[2025-03-07 13:07:12] INFO  ListenersClass - Test started : veryfyLogedOut
+[2025-03-07 13:07:17] ERROR ActionsClass - Click Action is not performed
+[2025-03-07 13:07:17] INFO  ListenersClass - Test started : accountManagement
+[2025-03-07 13:07:18] INFO  ActionsClass - Click Action is performed
+[2025-03-07 13:07:23] INFO  ListenersClass - Test started : accountManagement
+[2025-03-07 13:07:23] INFO  ActionsClass - Click Action is performed
+[2025-03-07 13:07:28] ERROR ActionsClass - Click Action is not performed
+[2025-03-07 13:09:04] INFO  ListenersClass - Test started : veryfyLogedOut
+[2025-03-07 13:09:09] ERROR ActionsClass - Click Action is not performed
+[2025-03-07 13:09:09] INFO  ListenersClass - Test started : accountManagement
+[2025-03-07 13:09:09] INFO  ActionsClass - Click Action is performed
+[2025-03-07 13:09:15] INFO  ListenersClass - Test started : accountManagement
+[2025-03-07 13:09:15] INFO  ActionsClass - Click Action is performed
+[2025-03-07 13:09:20] ERROR ActionsClass - Click Action is not performed
+[2025-03-07 13:35:17] INFO  ListenersClass - Test started : veryfyLogedOut
+[2025-03-07 13:35:22] ERROR ActionsClass - Click Action is not performed
+[2025-03-07 13:35:22] INFO  ListenersClass - Test started : accountManagement
+[2025-03-07 13:35:23] INFO  ActionsClass - Click Action is performed
+[2025-03-07 13:35:23] INFO  ActionsClass - Click Action is performed
+[2025-03-07 13:35:23] INFO  ListenersClass - Test case passed : accountManagement
+[2025-03-07 13:35:23] INFO  ListenersClass - Test started : accountManagement
+[2025-03-07 13:35:23] INFO  ActionsClass - Click Action is performed
+[2025-03-07 13:35:29] ERROR ActionsClass - Click Action is not performed
+[2025-03-07 14:06:56] INFO  ListenersClass - Test started : veryfyLogedOut
+[2025-03-07 14:07:01] ERROR ActionsClass - Click Action is not performed
+[2025-03-07 14:07:01] INFO  ListenersClass - Test started : accountManagement
+[2025-03-07 14:07:01] INFO  ActionsClass - Click Action is performed
+[2025-03-07 14:07:01] INFO  ActionsClass - Click Action is performed
+[2025-03-07 14:07:01] INFO  ListenersClass - Test case passed : accountManagement
+[2025-03-07 14:07:01] INFO  ListenersClass - Test started : accountManagement
+[2025-03-07 14:07:02] INFO  ActionsClass - Click Action is performed
+[2025-03-07 14:07:07] ERROR ActionsClass - Click Action is not performed
+[2025-03-07 14:24:31] INFO  ListenersClass - Test started : veryfyLogedOut
+[2025-03-07 14:24:36] ERROR ActionsClass - Click Action is not performed
+[2025-03-07 14:24:37] INFO  ListenersClass - Test started : accountManagement
+[2025-03-07 14:24:38] INFO  ActionsClass - Click Action is performed
+[2025-03-07 14:24:38] INFO  ActionsClass - Click Action is performed
+[2025-03-07 14:24:38] INFO  ListenersClass - Test case passed : accountManagement
+[2025-03-07 14:24:38] INFO  ListenersClass - Test started : accountManagement
+[2025-03-07 14:24:39] INFO  ActionsClass - Click Action is performed
+[2025-03-07 14:24:44] ERROR ActionsClass - Click Action is not performed
+[2025-03-07 14:28:09] INFO  ListenersClass - Test started : veryfyLogedOut
+[2025-03-07 14:28:14] ERROR ActionsClass - Click Action is not performed
+[2025-03-07 14:28:14] INFO  ListenersClass - Test started : accountManagement
+[2025-03-07 14:28:15] INFO  ActionsClass - Click Action is performed
+[2025-03-07 14:28:15] INFO  ActionsClass - Click Action is performed
+[2025-03-07 14:28:15] INFO  ListenersClass - Test case passed : accountManagement
+[2025-03-07 14:28:15] INFO  ListenersClass - Test started : accountManagement
+[2025-03-07 14:28:16] INFO  ActionsClass - Click Action is performed
+[2025-03-07 14:28:21] ERROR ActionsClass - Click Action is not performed
+[2025-03-07 14:31:20] INFO  ListenersClass - Test started : veryfyLogedOut
+[2025-03-07 14:31:25] ERROR ActionsClass - Click Action is not performed
+[2025-03-07 14:31:25] INFO  ListenersClass - Test started : accountManagement
+[2025-03-07 14:31:29] INFO  ActionsClass - Click Action is performed
+[2025-03-07 14:31:30] INFO  ActionsClass - Click Action is performed
+[2025-03-07 14:31:30] INFO  ListenersClass - Test case passed : accountManagement
+[2025-03-07 14:31:30] INFO  ListenersClass - Test started : accountManagement
+[2025-03-07 14:31:34] INFO  ActionsClass - Click Action is performed
+[2025-03-07 14:32:13] INFO  ListenersClass - Test started : veryfyLogedOut
+[2025-03-07 14:32:18] ERROR ActionsClass - Click Action is not performed
+[2025-03-07 14:32:18] INFO  ListenersClass - Test started : accountManagement
+[2025-03-07 14:32:22] INFO  ActionsClass - Click Action is performed
+[2025-03-07 14:32:22] INFO  ListenersClass - Test case passed : accountManagement
+[2025-03-07 14:32:22] INFO  ListenersClass - Test started : accountManagement
+[2025-03-07 14:32:26] INFO  ActionsClass - Click Action is performed
+[2025-03-07 14:37:03] INFO  ListenersClass - Test started : veryfyLogedOut
+[2025-03-07 14:37:08] ERROR ActionsClass - Click Action is not performed
+[2025-03-07 14:37:09] INFO  ListenersClass - Test started : accountManagement
+[2025-03-07 14:37:10] INFO  ActionsClass - Click Action is performed
+[2025-03-07 14:37:10] INFO  ListenersClass - Test case passed : accountManagement
+[2025-03-07 14:37:10] INFO  ListenersClass - Test started : accountManagement
+[2025-03-07 14:37:11] INFO  ActionsClass - Click Action is performed
+[2025-03-07 14:37:16] ERROR ActionsClass - Click Action is not performed
+[2025-03-07 14:40:30] INFO  ListenersClass - Test started : veryfyLogedOut
+[2025-03-07 14:40:35] ERROR ActionsClass - Click Action is not performed
+[2025-03-07 14:40:36] INFO  ListenersClass - Test started : accountManagement
+[2025-03-07 14:40:37] INFO  ActionsClass - Click Action is performed
+[2025-03-07 14:40:37] INFO  ListenersClass - Test case passed : accountManagement
+[2025-03-07 14:40:37] INFO  ListenersClass - Test started : accountManagement
+[2025-03-07 14:40:38] INFO  ActionsClass - Click Action is performed
+[2025-03-07 14:40:46] ERROR ActionsClass - Click Action is not performed
+[2025-03-07 14:43:00] INFO  ListenersClass - Test started : veryfyLogedOut
+[2025-03-07 14:43:05] ERROR ActionsClass - Click Action is not performed
+[2025-03-07 14:43:05] INFO  ListenersClass - Test started : accountManagement
+[2025-03-07 14:43:06] INFO  ActionsClass - Click Action is performed
+[2025-03-07 14:43:06] INFO  ActionsClass - Click Action is performed
+[2025-03-07 14:43:07] INFO  ActionsClass - Click Action is performed
+[2025-03-07 14:43:07] INFO  ActionsClass - Click Action is performed
+[2025-03-07 14:43:07] INFO  ActionsClass - Click Action is performed
+[2025-03-07 14:48:30] INFO  ListenersClass - Test started : veryfyLogedOut
+[2025-03-07 14:48:35] ERROR ActionsClass - Click Action is not performed
+[2025-03-07 14:48:35] INFO  ListenersClass - Test started : accountManagement
+[2025-03-07 14:48:36] INFO  ActionsClass - Click Action is performed
+[2025-03-07 14:48:36] INFO  ActionsClass - Click Action is performed
+[2025-03-07 14:48:36] INFO  ActionsClass - Click Action is performed
+[2025-03-07 14:48:36] INFO  ActionsClass - Click Action is performed
+[2025-03-07 14:48:36] INFO  ActionsClass - Click Action is performed
+[2025-03-07 14:48:36] INFO  ListenersClass - Test started : accountManagement
+[2025-03-07 14:50:20] INFO  ListenersClass - Test started : veryfyLogedOut
+[2025-03-07 14:50:25] ERROR ActionsClass - Click Action is not performed
+[2025-03-07 14:50:25] INFO  ListenersClass - Test started : accountManagement
+[2025-03-07 14:50:26] INFO  ActionsClass - Click Action is performed
+[2025-03-07 14:50:26] INFO  ActionsClass - Click Action is performed
+[2025-03-07 14:50:26] INFO  ActionsClass - Click Action is performed
+[2025-03-07 14:50:26] INFO  ActionsClass - Click Action is performed
+[2025-03-07 14:50:26] INFO  ActionsClass - Click Action is performed
+[2025-03-07 14:50:32] INFO  ListenersClass - Test started : accountManagement
+[2025-03-07 14:53:06] INFO  ListenersClass - Test started : veryfyLogedOut
+[2025-03-07 14:53:11] ERROR ActionsClass - Click Action is not performed
+[2025-03-07 14:53:11] INFO  ListenersClass - Test started : accountManagement
+[2025-03-07 14:53:12] INFO  ActionsClass - Click Action is performed
+[2025-03-07 14:53:12] INFO  ActionsClass - Click Action is performed
+[2025-03-07 14:53:12] INFO  ActionsClass - Click Action is performed
+[2025-03-07 14:53:12] INFO  ActionsClass - Click Action is performed
+[2025-03-07 14:53:13] INFO  ActionsClass - Click Action is performed
+[2025-03-07 14:53:18] INFO  ListenersClass - Test started : accountManagement
+[2025-03-07 14:56:11] INFO  ListenersClass - Test started : veryfyLogedOut
+[2025-03-07 14:56:16] ERROR ActionsClass - Click Action is not performed
+[2025-03-07 14:56:16] INFO  ListenersClass - Test started : accountManagement
+[2025-03-07 14:56:17] INFO  ActionsClass - Click Action is performed
+[2025-03-07 14:56:17] INFO  ActionsClass - Click Action is performed
+[2025-03-07 14:56:17] INFO  ActionsClass - Click Action is performed
+[2025-03-07 14:56:17] INFO  ActionsClass - Click Action is performed
+[2025-03-07 14:56:17] INFO  ActionsClass - Click Action is performed
+[2025-03-07 14:56:23] INFO  ListenersClass - Test started : accountManagement
+[2025-03-07 14:57:21] INFO  ListenersClass - Test started : veryfyLogedOut
+[2025-03-07 14:57:26] ERROR ActionsClass - Click Action is not performed
+[2025-03-07 14:57:26] INFO  ListenersClass - Test started : accountManagement
+[2025-03-07 14:57:27] INFO  ActionsClass - Click Action is performed
+[2025-03-07 14:57:27] INFO  ActionsClass - Click Action is performed
+[2025-03-07 14:57:27] INFO  ActionsClass - Click Action is performed
+[2025-03-07 14:57:27] INFO  ActionsClass - Click Action is performed
+[2025-03-07 14:57:28] INFO  ActionsClass - Click Action is performed
+[2025-03-07 14:57:28] INFO  ActionsClass - Click Action is performed
+[2025-03-07 14:57:33] ERROR ActionsClass - Click Action is not performed
+[2025-03-07 14:57:33] INFO  ListenersClass - Test started : accountManagement
+[2025-03-07 14:59:32] INFO  ListenersClass - Test started : veryfyLogedOut
+[2025-03-07 14:59:37] ERROR ActionsClass - Click Action is not performed
+[2025-03-07 14:59:37] INFO  ListenersClass - Test started : accountManagement
+[2025-03-07 14:59:38] INFO  ActionsClass - Click Action is performed
+[2025-03-07 14:59:38] INFO  ActionsClass - Click Action is performed
+[2025-03-07 14:59:38] INFO  ActionsClass - Click Action is performed
+[2025-03-07 14:59:38] INFO  ActionsClass - Click Action is performed
+[2025-03-07 14:59:38] INFO  ActionsClass - Click Action is performed
+[2025-03-07 14:59:39] INFO  ActionsClass - Click Action is performed
+[2025-03-07 14:59:39] INFO  ListenersClass - Test started : accountManagement
+[2025-03-07 15:11:19] INFO  ListenersClass - Test started : veryfyLogedOut
+[2025-03-07 15:11:24] ERROR ActionsClass - Click Action is not performed
+[2025-03-07 15:11:24] INFO  ListenersClass - Test started : accountManagement
+[2025-03-07 15:11:25] INFO  ActionsClass - Click Action is performed
+[2025-03-07 15:11:25] INFO  ListenersClass - Test case passed : accountManagement
+[2025-03-07 15:11:25] INFO  ListenersClass - Test started : accountManagement
+[2025-03-07 15:12:35] INFO  ListenersClass - Test started : accountManagement
+[2025-03-07 15:12:36] INFO  ActionsClass - Click Action is performed
+[2025-03-07 15:12:36] INFO  ListenersClass - Test case passed : accountManagement
+[2025-03-07 15:12:36] INFO  ListenersClass - Test started : accountManagement
+[2025-03-07 15:12:37] INFO  ActionsClass - Click Action is performed
+[2025-03-07 15:12:42] INFO  ListenersClass - Test started : veryfyLogedOut
+[2025-03-07 15:12:47] ERROR ActionsClass - Click Action is not performed
+[2025-03-07 15:20:27] INFO  ListenersClass - Test started : accountManagement
+[2025-03-07 15:20:28] INFO  ActionsClass - Click Action is performed
+[2025-03-07 15:20:28] INFO  ListenersClass - Test case passed : accountManagement
+[2025-03-07 15:20:29] INFO  ListenersClass - Test started : veryfyLogedOut
+[2025-03-07 15:20:34] ERROR ActionsClass - Click Action is not performed
+[2025-03-07 15:21:29] INFO  ListenersClass - Test started : accountManagement
+[2025-03-07 15:21:30] INFO  ActionsClass - Click Action is performed
+[2025-03-07 15:21:30] INFO  ListenersClass - Test case passed : accountManagement
+[2025-03-07 15:21:30] INFO  ListenersClass - Test started : veryfyLogedOut
+[2025-03-07 15:21:35] ERROR ActionsClass - Click Action is not performed
+[2025-03-07 15:22:26] INFO  ListenersClass - Test started : accountManagement
+[2025-03-07 15:22:27] INFO  ActionsClass - Click Action is performed
+[2025-03-07 15:22:27] INFO  ListenersClass - Test case passed : accountManagement
+[2025-03-07 15:22:27] INFO  ListenersClass - Test started : accountManagement
+[2025-03-07 15:22:28] INFO  ActionsClass - Click Action is performed
+[2025-03-07 15:22:33] INFO  ListenersClass - Test started : veryfyLogedOut
+[2025-03-07 15:22:39] ERROR ActionsClass - Click Action is not performed
+[2025-03-07 15:38:54] INFO  ListenersClass - Test started : accountManagement
+[2025-03-07 15:38:55] INFO  ActionsClass - Click Action is performed
+[2025-03-07 15:38:55] INFO  ListenersClass - Test case passed : accountManagement
+[2025-03-07 15:38:55] INFO  ListenersClass - Test started : accountManagement
+[2025-03-07 15:38:56] INFO  ActionsClass - Click Action is performed
+[2025-03-07 15:39:01] INFO  ListenersClass - Test started : veryfyLogedOut
+[2025-03-07 15:39:06] ERROR ActionsClass - Click Action is not performed
+[2025-03-07 15:39:57] INFO  ListenersClass - Test started : accountManagement
+[2025-03-07 15:39:58] INFO  ActionsClass - Click Action is performed
+[2025-03-07 15:39:58] INFO  ListenersClass - Test case passed : accountManagement
+[2025-03-07 15:39:58] INFO  ListenersClass - Test started : accountManagement
+[2025-03-07 15:39:58] INFO  ActionsClass - Click Action is performed
+[2025-03-07 15:40:04] INFO  ListenersClass - Test started : veryfyLogedOut
+[2025-03-07 15:40:09] ERROR ActionsClass - Click Action is not performed
+[2025-03-07 15:44:16] INFO  ListenersClass - Test started : accountManagement
+[2025-03-07 15:44:17] INFO  ActionsClass - Click Action is performed
+[2025-03-07 15:44:17] INFO  ListenersClass - Test case passed : accountManagement
+[2025-03-07 15:44:17] INFO  ListenersClass - Test started : accountManagement
+[2025-03-07 15:44:18] INFO  ActionsClass - Click Action is performed
+[2025-03-07 15:44:18] INFO  ListenersClass - Test case passed : accountManagement
+[2025-03-07 15:44:18] INFO  ListenersClass - Test started : veryfyLogedOut
+[2025-03-07 15:44:18] INFO  ActionsClass - Click Action is performed
+[2025-03-07 15:44:18] INFO  ActionsClass - Click Action is performed
+[2025-03-07 15:44:18] INFO  ActionsClass - Successfully Found element at
+[2025-03-07 15:44:19] INFO  ActionsClass - The element is Displayed
+[2025-03-07 15:44:19] INFO  ListenersClass - Test case passed : veryfyLogedOut
+[2025-03-07 21:41:00] INFO  ActionsClass - Click Action is performed
+[2025-03-07 21:41:00] INFO  ActionsClass - Click Action is performed
+[2025-03-07 21:41:00] INFO  ActionsClass - Click Action is performed
+[2025-03-07 21:41:00] INFO  LoginTest - products list are displayed
+[2025-03-07 21:41:02] INFO  ActionsClass - Click Action is performed
+[2025-03-07 21:41:03] INFO  ActionsClass - Click Action is performed
+[2025-03-07 21:41:03] INFO  ActionsClass - Click Action is performed
+[2025-03-07 21:41:03] INFO  ActionsClass - Click Action is performed
+[2025-03-07 21:41:03] INFO  ActionsClass - Successfully Found element at
+[2025-03-07 21:41:03] INFO  ActionsClass - The element is Displayed
+[2025-03-07 21:41:27] INFO  ListenersClass - Test started : LogUser
+[2025-03-07 21:41:28] INFO  ActionsClass - Click Action is performed
+[2025-03-07 21:41:28] INFO  ActionsClass - Click Action is performed
+[2025-03-07 21:41:28] INFO  ActionsClass - Click Action is performed
+[2025-03-07 21:41:28] INFO  CartTest - Item added to cart
+[2025-03-07 21:41:28] INFO  ListenersClass - Test case passed : LogUser
+[2025-03-07 21:41:28] INFO  ListenersClass - Test started : ViewCart
+[2025-03-07 21:41:28] INFO  ActionsClass - Click Action is performed
+[2025-03-07 21:41:28] INFO  CartTest - Items are available in cart. 
+[2025-03-07 21:41:28] INFO  ListenersClass - Test case passed : ViewCart
+[2025-03-07 21:41:28] INFO  ListenersClass - Test started : RemoveItem
+[2025-03-07 21:41:28] INFO  ActionsClass - Click Action is performed
+[2025-03-07 21:41:28] INFO  CartTest - Item removed from cart
+[2025-03-07 21:41:28] INFO  ListenersClass - Test case passed : RemoveItem
+[2025-03-07 21:41:28] INFO  ListenersClass - Test started : Checkout
+[2025-03-07 21:41:28] INFO  ActionsClass - Click Action is performed
+[2025-03-07 21:41:29] INFO  ListenersClass - Test started : OrderItem
+[2025-03-07 21:41:34] ERROR ActionsClass - Click Action is not performed
+[2025-03-07 21:42:08] INFO  ListenersClass - Test started : LogUser
+[2025-03-07 21:42:09] INFO  ActionsClass - Click Action is performed
+[2025-03-07 21:42:09] INFO  ActionsClass - Click Action is performed
+[2025-03-07 21:42:10] INFO  ActionsClass - Click Action is performed
+[2025-03-07 21:42:10] INFO  CartTest - Item added to cart
+[2025-03-07 21:42:10] INFO  ListenersClass - Test case passed : LogUser
+[2025-03-07 21:42:10] INFO  ListenersClass - Test started : ViewCart
+[2025-03-07 21:42:10] INFO  ActionsClass - Click Action is performed
+[2025-03-07 21:42:10] INFO  CartTest - Items are available in cart. 
+[2025-03-07 21:42:10] INFO  ListenersClass - Test case passed : ViewCart
+[2025-03-07 21:42:10] INFO  ListenersClass - Test started : RemoveItem
+[2025-03-07 21:42:10] INFO  ActionsClass - Click Action is performed
+[2025-03-07 21:42:10] INFO  CartTest - Item removed from cart
+[2025-03-07 21:42:10] INFO  ListenersClass - Test case passed : RemoveItem
+[2025-03-07 21:42:10] INFO  ListenersClass - Test started : Checkout
+[2025-03-07 21:42:10] INFO  ActionsClass - Click Action is performed
+[2025-03-07 21:42:16] INFO  ListenersClass - Test started : OrderItem
+[2025-03-07 21:42:21] ERROR ActionsClass - Click Action is not performed
+[2025-03-07 21:43:30] INFO  ListenersClass - Test started : LogUser
+[2025-03-07 21:43:31] INFO  ActionsClass - Click Action is performed
+[2025-03-07 21:43:31] INFO  ActionsClass - Click Action is performed
+[2025-03-07 21:43:31] INFO  ActionsClass - Click Action is performed
+[2025-03-07 21:43:31] INFO  CartTest - Item added to cart
+[2025-03-07 21:43:31] INFO  ListenersClass - Test case passed : LogUser
+[2025-03-07 21:43:31] INFO  ListenersClass - Test started : ViewCart
+[2025-03-07 21:43:31] INFO  ActionsClass - Click Action is performed
+[2025-03-07 21:43:31] INFO  CartTest - Items are available in cart. 
+[2025-03-07 21:43:31] INFO  ListenersClass - Test case passed : ViewCart
+[2025-03-07 21:43:31] INFO  ListenersClass - Test started : RemoveItem
+[2025-03-07 21:43:31] INFO  ActionsClass - Click Action is performed
+[2025-03-07 21:43:31] INFO  CartTest - Item removed from cart
+[2025-03-07 21:43:31] INFO  ListenersClass - Test case passed : RemoveItem
+[2025-03-07 21:43:31] INFO  ListenersClass - Test started : Checkout
+[2025-03-07 21:43:32] INFO  ActionsClass - Click Action is performed
+[2025-03-07 21:43:32] INFO  ActionsClass - Click Action is performed
+[2025-03-07 21:43:32] INFO  ActionsClass - Successfully Found element at
+[2025-03-07 21:43:32] INFO  ActionsClass - The element is Displayed
+[2025-03-07 21:43:32] INFO  CartTest - ------Checkout-------- 
+[2025-03-07 21:43:32] INFO  ListenersClass - Test case passed : Checkout
+[2025-03-07 21:43:32] INFO  ListenersClass - Test started : OrderItem
+[2025-03-07 21:43:33] INFO  ActionsClass - Click Action is performed
+[2025-03-07 21:43:33] INFO  ActionsClass - Successfully Found element at
+[2025-03-07 21:43:33] INFO  ActionsClass - The element is Displayed
+[2025-03-07 21:43:33] INFO  ActionsClass - Click Action is performed
+[2025-03-07 21:43:33] INFO  ActionsClass - Click Action is performed
+[2025-03-07 21:43:33] INFO  ListenersClass - Test case passed : OrderItem
+[2025-03-10 08:08:50] INFO  ListenersClass - Test started : LogUser
+[2025-03-10 08:08:50] INFO  ListenersClass - Test started : LogUser
+[2025-03-10 08:08:50] INFO  ListenersClass - Test started : Verifylink
+[2025-03-10 08:08:52] INFO  ActionsClass - Click Action is performed
+[2025-03-10 08:08:52] INFO  ActionsClass - Click Action is performed
+[2025-03-10 08:08:52] INFO  ActionsClass - Click Action is performed
+[2025-03-10 08:08:52] INFO  ActionsClass - Click Action is performed
+[2025-03-10 08:08:52] INFO  ActionsClass - Click Action is performed
+[2025-03-10 08:08:52] INFO  ActionsClass - Click Action is performed
+[2025-03-10 08:08:53] INFO  ActionsClass - Click Action is performed
+[2025-03-10 08:08:53] INFO  LoginTest - products list are displayed
+[2025-03-10 08:08:53] INFO  CartTest - Item added to cart
+[2025-03-10 08:08:53] INFO  ListenersClass - Test case passed : LogUser
+[2025-03-10 08:08:53] INFO  ListenersClass - Test case passed : LogUser
+[2025-03-10 08:08:53] INFO  ListenersClass - Test started : veryfyErrorText
+[2025-03-10 08:08:53] INFO  ListenersClass - Test started : ViewCart
+[2025-03-10 08:08:53] INFO  ActionsClass - Click Action is performed
+[2025-03-10 08:08:53] INFO  CartTest - Items are available in cart. 
+[2025-03-10 08:08:53] INFO  ListenersClass - Test case passed : ViewCart
+[2025-03-10 08:08:53] INFO  ListenersClass - Test started : RemoveItem
+[2025-03-10 08:08:53] INFO  ActionsClass - Click Action is performed
+[2025-03-10 08:08:53] INFO  CartTest - Item removed from cart
+[2025-03-10 08:08:53] INFO  ListenersClass - Test case passed : RemoveItem
+[2025-03-10 08:08:53] INFO  ListenersClass - Test started : Checkout
+[2025-03-10 08:08:53] ERROR HomePage -  Broken Link: https://www.saucedemo.com/inventory.html# | Response Code: 404
+[2025-03-10 08:08:53] ERROR HomePage -  Broken Link: https://www.saucedemo.com/inventory.html# | Response Code: 404
+[2025-03-10 08:08:53] INFO  ActionsClass - Click Action is performed
+[2025-03-10 08:08:53] ERROR HomePage -  Broken Link: https://www.saucedemo.com/inventory.html# | Response Code: 404
+[2025-03-10 08:08:53] ERROR HomePage -  Broken Link: https://www.saucedemo.com/inventory.html# | Response Code: 404
+[2025-03-10 08:08:53] ERROR HomePage -  Broken Link: https://www.saucedemo.com/inventory.html# | Response Code: 404
+[2025-03-10 08:08:54] ERROR HomePage -  Broken Link: https://www.saucedemo.com/inventory.html# | Response Code: 404
+[2025-03-10 08:08:54] INFO  IndexTest - products list are displayed
+[2025-03-10 08:08:54] INFO  ListenersClass - Test case passed : Verifylink
+[2025-03-10 08:08:54] INFO  ListenersClass - Test started : verifyProductCoount
+[2025-03-10 08:08:54] INFO  IndexTest - Number of products displayed: 6
+[2025-03-10 08:08:54] INFO  ListenersClass - Test case passed : verifyProductCoount
+[2025-03-10 08:08:54] INFO  ListenersClass - Test started : verifyProductDetails
+[2025-03-10 08:08:54] INFO  ActionsClass - Click Action is performed
+[2025-03-10 08:08:54] INFO  ListenersClass - Test started : accountManagement
+[2025-03-10 08:08:54] INFO  IndexTest - actual :Sauce Labs Backpack
+ expected: Sauce Labs Backpack
+[2025-03-10 08:08:54] INFO  ListenersClass - Test case passed : verifyProductDetails
+[2025-03-10 08:08:55] INFO  ActionsClass - Click Action is performed
+[2025-03-10 08:08:55] INFO  ActionsClass - Successfully Found element at
+[2025-03-10 08:08:55] INFO  ActionsClass - The element is Displayed
+[2025-03-10 08:08:55] INFO  CartTest - ------Checkout-------- 
+[2025-03-10 08:08:55] INFO  ListenersClass - Test case passed : Checkout
+[2025-03-10 08:08:55] INFO  ListenersClass - Test started : OrderItem
+[2025-03-10 08:08:55] INFO  ActionsClass - Click Action is performed
+[2025-03-10 08:08:55] INFO  ActionsClass - Successfully Found element at
+[2025-03-10 08:08:55] INFO  ActionsClass - The element is Displayed
+[2025-03-10 08:08:55] INFO  ActionsClass - Click Action is performed
+[2025-03-10 08:08:55] INFO  ActionsClass - Click Action is performed
+[2025-03-10 08:08:55] INFO  ListenersClass - Test case passed : accountManagement
+[2025-03-10 08:08:55] INFO  ListenersClass - Test started : accountManagement
+[2025-03-10 08:08:56] INFO  ActionsClass - Click Action is performed
+[2025-03-10 08:08:56] INFO  ListenersClass - Test case passed : OrderItem
+[2025-03-10 08:08:57] INFO  ActionsClass - Click Action is performed
+[2025-03-10 08:08:57] INFO  ListenersClass - Test case passed : accountManagement
+[2025-03-10 08:08:57] INFO  ListenersClass - Test started : veryfyLogedOut
+[2025-03-10 08:08:57] INFO  ActionsClass - Click Action is performed
+[2025-03-10 08:08:57] INFO  ActionsClass - Click Action is performed
+[2025-03-10 08:08:57] INFO  ActionsClass - Successfully Found element at
+[2025-03-10 08:08:57] INFO  ActionsClass - The element is Displayed
+[2025-03-10 08:08:57] INFO  ListenersClass - Test case passed : veryfyLogedOut
+[2025-03-10 08:17:16] INFO  ActionsClass - Click Action is performed
+[2025-03-10 08:17:16] INFO  ActionsClass - Click Action is performed
+[2025-03-10 08:17:17] INFO  ActionsClass - Click Action is performed
+[2025-03-10 08:17:17] INFO  LoginTest - products list are displayed
+[2025-03-10 08:17:18] INFO  ActionsClass - Click Action is performed
+[2025-03-10 08:17:19] INFO  ActionsClass - Click Action is performed
+[2025-03-10 08:17:19] INFO  ActionsClass - Click Action is performed
+[2025-03-10 08:17:19] INFO  ActionsClass - Click Action is performed
+[2025-03-10 08:17:19] INFO  ActionsClass - Successfully Found element at
+[2025-03-10 08:17:19] INFO  ActionsClass - The element is Displayed
+[2025-03-10 08:19:05] INFO  ListenersClass - Test started : LogUser
+[2025-03-10 08:19:06] INFO  ActionsClass - Click Action is performed
+[2025-03-10 08:19:06] INFO  ActionsClass - Click Action is performed
+[2025-03-10 08:19:07] INFO  ActionsClass - Click Action is performed
+[2025-03-10 08:19:07] INFO  LoginTest - products list are displayed
+[2025-03-10 08:19:07] INFO  ListenersClass - Test case passed : LogUser
+[2025-03-10 08:19:07] INFO  ListenersClass - Test started : veryfyErrorText
+[2025-03-10 08:19:07] INFO  ListenersClass - Test started : accountManagement
+[2025-03-10 08:19:08] INFO  ActionsClass - Click Action is performed
+[2025-03-10 08:19:08] INFO  ListenersClass - Test case passed : accountManagement
+[2025-03-10 08:19:08] INFO  ListenersClass - Test started : accountManagement
+[2025-03-10 08:19:09] INFO  ActionsClass - Click Action is performed
+[2025-03-10 08:19:09] INFO  ListenersClass - Test case passed : accountManagement
+[2025-03-10 08:19:09] INFO  ListenersClass - Test started : veryfyLogedOut
+[2025-03-10 08:19:09] INFO  ActionsClass - Click Action is performed
+[2025-03-10 08:19:09] INFO  ActionsClass - Click Action is performed
+[2025-03-10 08:19:09] INFO  ActionsClass - Successfully Found element at
+[2025-03-10 08:19:10] INFO  ActionsClass - The element is Displayed
+[2025-03-10 08:19:10] INFO  ListenersClass - Test case passed : veryfyLogedOut
+[2025-03-10 11:18:07] INFO  ListenersClass - Test started : LogUser
+[2025-03-10 11:18:08] INFO  ActionsClass - Click Action is performed
+[2025-03-10 11:18:08] INFO  ActionsClass - Click Action is performed
+[2025-03-10 11:18:09] INFO  ActionsClass - Click Action is performed
+[2025-03-10 11:18:09] INFO  LoginTest - products list are displayed
+[2025-03-10 11:18:09] INFO  ListenersClass - Test case passed : LogUser
+[2025-03-10 11:18:09] INFO  ListenersClass - Test started : veryfyErrorText
+[2025-03-10 11:18:09] INFO  ListenersClass - Test started : accountManagement
+[2025-03-10 11:18:09] INFO  ActionsClass - Click Action is performed
+[2025-03-10 11:18:09] INFO  ListenersClass - Test case passed : accountManagement
+[2025-03-10 11:18:09] INFO  ListenersClass - Test started : accountManagement
+[2025-03-10 11:18:10] INFO  ActionsClass - Click Action is performed
+[2025-03-10 11:18:10] INFO  ListenersClass - Test case passed : accountManagement
+[2025-03-10 11:18:10] INFO  ListenersClass - Test started : veryfyLogedOut
+[2025-03-10 11:18:10] INFO  ActionsClass - Click Action is performed
+[2025-03-10 11:18:11] INFO  ActionsClass - Click Action is performed
+[2025-03-10 11:18:11] INFO  ActionsClass - Successfully Found element at
+[2025-03-10 11:18:11] INFO  ActionsClass - The element is Displayed
+[2025-03-10 11:18:11] INFO  ListenersClass - Test case passed : veryfyLogedOut
+[2025-03-10 11:22:06] INFO  ListenersClass - Test started : LogUser
+[2025-03-10 11:22:06] INFO  ActionsClass - Click Action is performed
+[2025-03-10 11:22:06] INFO  ActionsClass - Click Action is performed
+[2025-03-10 11:22:07] INFO  ActionsClass - Click Action is performed
+[2025-03-10 11:22:07] INFO  LoginTest - products list are displayed
+[2025-03-10 11:22:07] INFO  ListenersClass - Test case passed : LogUser
+[2025-03-10 11:22:07] INFO  ListenersClass - Test started : veryfyErrorText
+[2025-03-10 11:22:07] INFO  ListenersClass - Test started : accountManagement
+[2025-03-10 11:22:08] INFO  ActionsClass - Click Action is performed
+[2025-03-10 11:22:08] INFO  ListenersClass - Test case passed : accountManagement
+[2025-03-10 11:22:08] INFO  ListenersClass - Test started : accountManagement
+[2025-03-10 11:22:08] INFO  ActionsClass - Click Action is performed
+[2025-03-10 11:22:08] INFO  ListenersClass - Test case passed : accountManagement
+[2025-03-10 11:22:08] INFO  ListenersClass - Test started : veryfyLogedOut
+[2025-03-10 11:22:08] INFO  ActionsClass - Click Action is performed
+[2025-03-10 11:22:09] INFO  ActionsClass - Click Action is performed
+[2025-03-10 11:22:09] INFO  ActionsClass - Successfully Found element at
+[2025-03-10 11:22:09] INFO  ActionsClass - The element is Displayed
+[2025-03-10 11:22:09] INFO  ListenersClass - Test case passed : veryfyLogedOut
+[2025-03-10 11:26:55] INFO  ListenersClass - Test started : LogUser
+[2025-03-10 11:26:56] INFO  ActionsClass - Click Action is performed
+[2025-03-10 11:26:56] INFO  ActionsClass - Click Action is performed
+[2025-03-10 11:26:57] INFO  ActionsClass - Click Action is performed
+[2025-03-10 11:26:57] INFO  LoginTest - products list are displayed
+[2025-03-10 11:26:57] INFO  ListenersClass - Test case passed : LogUser
+[2025-03-10 11:26:57] INFO  ListenersClass - Test started : veryfyErrorText
+[2025-03-10 11:26:57] INFO  ListenersClass - Test started : accountManagement
+[2025-03-10 11:26:57] INFO  ActionsClass - Click Action is performed
+[2025-03-10 11:26:57] INFO  ListenersClass - Test case passed : accountManagement
+[2025-03-10 11:26:57] INFO  ListenersClass - Test started : accountManagement
+[2025-03-10 11:26:58] INFO  ActionsClass - Click Action is performed
+[2025-03-10 11:26:58] INFO  ListenersClass - Test case passed : accountManagement
+[2025-03-10 11:26:58] INFO  ListenersClass - Test started : veryfyLogedOut
+[2025-03-10 11:26:58] INFO  ActionsClass - Click Action is performed
+[2025-03-10 11:26:59] INFO  ActionsClass - Click Action is performed
+[2025-03-10 11:26:59] INFO  ActionsClass - Successfully Found element at
+[2025-03-10 11:26:59] INFO  ActionsClass - The element is Displayed
+[2025-03-10 11:26:59] INFO  ListenersClass - Test case passed : veryfyLogedOut
+[2025-03-10 11:35:33] INFO  ListenersClass - Test started: LogUser
+[2025-03-10 11:35:34] INFO  ActionsClass - Click Action is performed
+[2025-03-10 11:35:34] INFO  ActionsClass - Click Action is performed
+[2025-03-10 11:35:35] INFO  ActionsClass - Click Action is performed
+[2025-03-10 11:35:35] INFO  LoginTest - products list are displayed
+[2025-03-10 11:35:35] INFO  ListenersClass - Test passed: LogUser
+[2025-03-10 11:35:35] INFO  ListenersClass - Test started: veryfyErrorText
+[2025-03-10 11:35:35] ERROR ListenersClass - Test failed: veryfyErrorText
+[2025-03-10 11:35:35] INFO  ListenersClass - Test started: accountManagement
+[2025-03-10 11:35:35] INFO  ActionsClass - Click Action is performed
+[2025-03-10 11:35:35] INFO  ListenersClass - Test passed: accountManagement
+[2025-03-10 11:35:35] INFO  ListenersClass - Test started: accountManagement
+[2025-03-10 11:35:36] INFO  ActionsClass - Click Action is performed
+[2025-03-10 11:35:36] INFO  ListenersClass - Test passed: accountManagement
+[2025-03-10 11:35:36] INFO  ListenersClass - Test started: veryfyLogedOut
+[2025-03-10 11:35:36] INFO  ActionsClass - Click Action is performed
+[2025-03-10 11:35:36] INFO  ActionsClass - Click Action is performed
+[2025-03-10 11:35:36] INFO  ActionsClass - Successfully Found element at
+[2025-03-10 11:35:36] INFO  ActionsClass - The element is Displayed
+[2025-03-10 11:35:36] INFO  ListenersClass - Test passed: veryfyLogedOut
+[2025-03-10 11:37:56] INFO  ListenersClass - Test started: LogUser
+[2025-03-10 11:37:57] INFO  ActionsClass - Click Action is performed
+[2025-03-10 11:37:57] INFO  ActionsClass - Click Action is performed
+[2025-03-10 11:37:58] INFO  ActionsClass - Click Action is performed
+[2025-03-10 11:37:58] INFO  LoginTest - products list are displayed
+[2025-03-10 11:37:58] INFO  ListenersClass - Test passed: LogUser
+[2025-03-10 11:37:58] INFO  ListenersClass - Test started: veryfyErrorText
+[2025-03-10 11:37:58] ERROR ListenersClass - Test failed: veryfyErrorText
+[2025-03-10 11:37:58] INFO  ListenersClass - Test started: accountManagement
+[2025-03-10 11:37:58] INFO  ActionsClass - Click Action is performed
+[2025-03-10 11:37:58] INFO  ListenersClass - Test passed: accountManagement
+[2025-03-10 11:37:58] INFO  ListenersClass - Test started: accountManagement
+[2025-03-10 11:37:59] INFO  ActionsClass - Click Action is performed
+[2025-03-10 11:37:59] INFO  ListenersClass - Test passed: accountManagement
+[2025-03-10 11:37:59] INFO  ListenersClass - Test started: veryfyLogedOut
+[2025-03-10 11:37:59] INFO  ActionsClass - Click Action is performed
+[2025-03-10 11:37:59] INFO  ActionsClass - Click Action is performed
+[2025-03-10 11:37:59] INFO  ActionsClass - Successfully Found element at
+[2025-03-10 11:37:59] INFO  ActionsClass - The element is Displayed
+[2025-03-10 11:37:59] INFO  ListenersClass - Test passed: veryfyLogedOut
+[2025-03-10 11:40:46] INFO  ListenersClass - Test started: LogUser
+[2025-03-10 11:40:46] INFO  ActionsClass - Click Action is performed
+[2025-03-10 11:40:46] INFO  ActionsClass - Click Action is performed
+[2025-03-10 11:40:47] INFO  ActionsClass - Click Action is performed
+[2025-03-10 11:40:47] INFO  LoginTest - products list are displayed
+[2025-03-10 11:40:47] INFO  ListenersClass - Test passed: LogUser
+[2025-03-10 11:40:47] INFO  ListenersClass - Test started: veryfyErrorText
+[2025-03-10 11:40:47] ERROR ListenersClass - Test failed: veryfyErrorText
+[2025-03-10 11:40:47] INFO  ListenersClass - Test started: accountManagement
+[2025-03-10 11:40:47] INFO  ActionsClass - Click Action is performed
+[2025-03-10 11:40:48] INFO  ListenersClass - Test passed: accountManagement
+[2025-03-10 11:40:48] INFO  ListenersClass - Test started: accountManagement
+[2025-03-10 11:40:48] INFO  ActionsClass - Click Action is performed
+[2025-03-10 11:40:48] INFO  ListenersClass - Test passed: accountManagement
+[2025-03-10 11:40:48] INFO  ListenersClass - Test started: veryfyLogedOut
+[2025-03-10 11:40:48] INFO  ActionsClass - Click Action is performed
+[2025-03-10 11:40:49] INFO  ActionsClass - Click Action is performed
+[2025-03-10 11:40:49] INFO  ActionsClass - Successfully Found element at
+[2025-03-10 11:40:49] INFO  ActionsClass - The element is Displayed
+[2025-03-10 11:40:49] INFO  ListenersClass - Test passed: veryfyLogedOut
+[2025-03-10 11:52:49] INFO  ListenersClass - Test started : LogUser
+[2025-03-10 11:52:49] INFO  ActionsClass - Click Action is performed
+[2025-03-10 11:52:49] INFO  ActionsClass - Click Action is performed
+[2025-03-10 11:52:50] INFO  ActionsClass - Click Action is performed
+[2025-03-10 11:52:50] INFO  LoginTest - products list are displayed
+[2025-03-10 11:52:50] INFO  ListenersClass - Test case passed : LogUser
+[2025-03-10 11:52:50] INFO  ListenersClass - Test started : veryfyErrorText
+[2025-03-10 11:52:50] INFO  ListenersClass - Test started : accountManagement
+[2025-03-10 11:52:51] INFO  ActionsClass - Click Action is performed
+[2025-03-10 11:52:51] INFO  ListenersClass - Test case passed : accountManagement
+[2025-03-10 11:52:51] INFO  ListenersClass - Test started : accountManagement
+[2025-03-10 11:52:51] INFO  ActionsClass - Click Action is performed
+[2025-03-10 11:52:51] INFO  ListenersClass - Test case passed : accountManagement
+[2025-03-10 11:52:51] INFO  ListenersClass - Test started : veryfyLogedOut
+[2025-03-10 11:52:51] INFO  ActionsClass - Click Action is performed
+[2025-03-10 11:52:52] INFO  ActionsClass - Click Action is performed
+[2025-03-10 11:52:52] INFO  ActionsClass - Successfully Found element at
+[2025-03-10 11:52:52] INFO  ActionsClass - The element is Displayed
+[2025-03-10 11:52:52] INFO  ListenersClass - Test case passed : veryfyLogedOut
+[2025-03-10 11:56:50] INFO  ListenersClass - Test started : LogUser
+[2025-03-10 11:56:51] INFO  ActionsClass - Click Action is performed
+[2025-03-10 11:56:51] INFO  ActionsClass - Click Action is performed
+[2025-03-10 11:56:51] INFO  ActionsClass - Click Action is performed
+[2025-03-10 11:56:51] INFO  LoginTest - products list are displayed
+[2025-03-10 11:56:51] INFO  ListenersClass - Test case passed : LogUser
+[2025-03-10 11:56:51] INFO  ListenersClass - Test started : veryfyErrorText
+[2025-03-10 11:56:52] INFO  ListenersClass - Test started : accountManagement
+[2025-03-10 11:56:52] INFO  ActionsClass - Click Action is performed
+[2025-03-10 11:56:52] INFO  ListenersClass - Test case passed : accountManagement
+[2025-03-10 11:56:52] INFO  ListenersClass - Test started : accountManagement
+[2025-03-10 11:56:53] INFO  ActionsClass - Click Action is performed
+[2025-03-10 11:56:53] INFO  ListenersClass - Test case passed : accountManagement
+[2025-03-10 11:56:53] INFO  ListenersClass - Test started : veryfyLogedOut
+[2025-03-10 11:56:53] INFO  ActionsClass - Click Action is performed
+[2025-03-10 11:56:53] INFO  ActionsClass - Click Action is performed
+[2025-03-10 11:56:53] INFO  ActionsClass - Successfully Found element at
+[2025-03-10 11:56:53] INFO  ActionsClass - The element is Displayed
+[2025-03-10 11:56:53] INFO  ListenersClass - Test case passed : veryfyLogedOut
+[2025-03-10 12:04:26] INFO  ListenersClass - Test started : LogUser
+[2025-03-10 12:04:26] INFO  ActionsClass - Click Action is performed
+[2025-03-10 12:04:26] INFO  ActionsClass - Click Action is performed
+[2025-03-10 12:04:27] INFO  ActionsClass - Click Action is performed
+[2025-03-10 12:04:27] INFO  LoginTest - products list are displayed
+[2025-03-10 12:04:27] INFO  ListenersClass - Test case passed : LogUser
+[2025-03-10 12:04:27] INFO  ListenersClass - Test started : veryfyErrorText
+[2025-03-10 12:04:27] INFO  ListenersClass - Test started : accountManagement
+[2025-03-10 12:04:28] INFO  ActionsClass - Click Action is performed
+[2025-03-10 12:04:28] INFO  ListenersClass - Test case passed : accountManagement
+[2025-03-10 12:04:28] INFO  ListenersClass - Test started : accountManagement
+[2025-03-10 12:04:28] INFO  ActionsClass - Click Action is performed
+[2025-03-10 12:04:28] INFO  ListenersClass - Test case passed : accountManagement
+[2025-03-10 12:04:28] INFO  ListenersClass - Test started : veryfyLogedOut
+[2025-03-10 12:04:28] INFO  ActionsClass - Click Action is performed
+[2025-03-10 12:04:29] INFO  ActionsClass - Click Action is performed
+[2025-03-10 12:04:29] INFO  ActionsClass - Successfully Found element at
+[2025-03-10 12:04:29] INFO  ActionsClass - The element is Displayed
+[2025-03-10 12:04:29] INFO  ListenersClass - Test case passed : veryfyLogedOut
