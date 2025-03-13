@@ -64,6 +64,7 @@ public class CartPage extends BaseClass {
      * Method to navigate to cart
      */
     public void OpenCart(){
+        act.explicitWaitClicable(getDriver(),view_cart,3000);
         act.JSClick(getDriver(),view_cart);
 
     }

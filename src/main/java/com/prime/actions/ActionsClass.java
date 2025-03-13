@@ -32,19 +32,6 @@ public class ActionsClass  extends  BaseClass implements ActionInterface {
     }
 
 
-    @Override
-    public void click(WebElement element) {
-        action.click(element).perform();
-
-    }
-
-    @Override
-    public void scrollToElement(WebElement element) {
-
-        action.scrollToElement(element);
-
-    }
-
     /**
      * This method for explicit waits
      *
@@ -55,6 +42,14 @@ public class ActionsClass  extends  BaseClass implements ActionInterface {
     public void explicitWait(WebDriver driver, WebElement element, long timeOut) {
         WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(timeOut));
         wait.until(ExpectedConditions.visibilityOf(element));
+
+    }
+
+    @Override
+    public void explicitWaitClicable(WebDriver driver, WebElement element, long timeOut) {
+
+        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(timeOut));
+        wait.until(ExpectedConditions.elementToBeClickable(element));
 
     }
 

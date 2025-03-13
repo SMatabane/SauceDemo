@@ -1,7 +1,5 @@
 package com.prime.utilities;
 
-import com.aventstack.extentreports.ExtentReports;
-import com.aventstack.extentreports.ExtentTest;
 import com.aventstack.extentreports.MediaEntityBuilder;
 import com.aventstack.extentreports.Status;
 import com.aventstack.extentreports.markuputils.ExtentColor;
@@ -14,75 +12,62 @@ import org.testng.ITestContext;
 import org.testng.ITestListener;
 import org.testng.ITestResult;
 
-
-
-public class ListenersClass extends ExtentReportManager  implements ITestListener {
+public class ListenersClass implements ITestListener {
 
     private static final Logger logs = Logger.getLogger(ListenersClass.class);
+
     @Override
     public void onTestStart(ITestResult result) {
-        test = extent.createTest(result.getName());
-        logs.info("Test started : " + result.getName());
+        ExtentReportManager.setTest(ExtentReportManager.getExtent().createTest(result.getName()));
+        logs.info("Test started: " + result.getName());
     }
 
     @Override
     public void onTestSuccess(ITestResult result) {
-        if (result.getStatus() == ITestResult.SUCCESS) {
-            test.log(Status.PASS, "Pass Test case is: " + result.getName());
-            logs.info("Test case passed : " + result.getName());
-        }
+        ExtentReportManager.getTest().log(Status.PASS, "Test Passed: " + result.getName());
+        logs.info("Test passed: " + result.getName());
     }
 
     @Override
     public void onTestFailure(ITestResult result) {
-        if (result.getStatus() == ITestResult.FAILURE) {
-            test.log(Status.FAIL, MarkupHelper.createLabel(result.getName() + " - Test Case Failed", ExtentColor.RED));
-            test.log(Status.FAIL, result.getThrowable());
+        ExtentReportManager.getTest().log(Status.FAIL,
+                MarkupHelper.createLabel(result.getName() + " - Test Case Failed", ExtentColor.RED));
+        ExtentReportManager.getTest().log(Status.FAIL, result.getThrowable());
+        logs.error("Test failed: " + result.getName());
 
+        WebDriver driver = BaseClass.getDriver(); // Get thread-safe driver
 
-            WebDriver driver = BaseClass.getDriver(); // Your way to get the WebDriver instance
-
-            if (driver != null) {
-                // Capture screenshot (saved as file and returned as Base64)
-                String base64Screenshot = ActionsClass.captureScreenshot(driver, result.getName());
-
-                // Attach Base64 image to Extent report
-                test.fail("Screenshot of failure:",
-                        MediaEntityBuilder.createScreenCaptureFromBase64String(base64Screenshot).build());
-
-
-
-            }
+        if (driver != null) {
+            String base64Screenshot = ActionsClass.captureScreenshot(driver, result.getName());
+            ExtentReportManager.getTest().fail("Screenshot of failure:",
+                    MediaEntityBuilder.createScreenCaptureFromBase64String(base64Screenshot).build());
         }
     }
 
-
-
-
-
     @Override
     public void onTestSkipped(ITestResult result) {
-        logs.warn("Test case skipped : " +result.getName());
+        ExtentReportManager.getTest().log(Status.SKIP, "Test Skipped: " + result.getName());
+        logs.warn("Test skipped: " + result.getName());
     }
 
     @Override
     public void onTestFailedButWithinSuccessPercentage(ITestResult result) {
-        logs.warn("TestFailed But Within SuccessPercentage : " +result);
+        logs.warn("Test failed but within success percentage: " + result.getName());
     }
 
     @Override
     public void onTestFailedWithTimeout(ITestResult result) {
-        //ITestListener.super.onTestFailedWithTimeout(result);
-        logs.error("Test Failed With Timeout : "+ result);
+        logs.error("Test failed with timeout: " + result.getName());
     }
 
     @Override
     public void onStart(ITestContext context) {
-        ITestListener.super.onStart(context);
+        logs.info("Test suite started: " + context.getName());
     }
 
     @Override
     public void onFinish(ITestContext context) {
-        ITestListener.super.onFinish(context);
+        logs.info("Test suite finished: " + context.getName());
+        ExtentReportManager.flushReport();
     }
 }

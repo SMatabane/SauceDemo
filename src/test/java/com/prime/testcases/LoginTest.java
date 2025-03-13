@@ -1,18 +1,13 @@
 package com.prime.testcases;
 
 import com.prime.base.BaseClass;
-import com.prime.pageobjects.CartPage;
 import com.prime.pageobjects.HomePage;
 import com.prime.pageobjects.LoginPage;
-import com.prime.pageobjects.OrderPage;
-import com.prime.utilities.ListenersClass;
 import org.apache.log4j.Logger;
-import org.testng.Assert;
 import org.testng.annotations.*;
 
 import static org.testng.Assert.assertEquals;
 import static org.testng.Assert.assertTrue;
-@Listeners(ListenersClass.class)
 public class LoginTest extends BaseClass {
 
     private LoginPage login;
@@ -23,9 +18,10 @@ public class LoginTest extends BaseClass {
     /**
      * set up driver
      */
+    @Parameters("browser")
     @BeforeClass
-    public void launch(){
-        setUp();
+    public void launch(String browser){
+        setUp(browser);
         login=new LoginPage();
         home=new HomePage();
 
@@ -46,7 +42,7 @@ public class LoginTest extends BaseClass {
     /**
      * verify error text is shown when logged with invalid credentials
      */
-    @Test(priority = 2)
+    @Test(priority = 2,dependsOnMethods = {"LogUser"})
     public void veryfyErrorText() {
         login.loginDetails(properties.getProperties("invalidusername"),properties.getProperties("invalidpassword"));
         assertTrue(login.Erromessage(),"Message is not displayed");
@@ -71,25 +67,18 @@ public class LoginTest extends BaseClass {
 
 
     }
-
     /**
      * verify user is logged out
      */
-    @Test(priority = 4)
+    @Test(priority = 4,dependsOnMethods = {"accountManagement"})
     public void veryfyLogedOut(){
         login.LogOut();
-       assertTrue(login.FormVisible(), "No form found");
+        assertTrue(login.FormVisible(), "No form found");
 
     }
 
 
-    /**
-     * close browser
-     */
-    @AfterClass
-    public void tearDown(){
-        getDriver().quit();
-    }
+
 
     @DataProvider(name = "userData")
     public Object[][] getUsers() {
@@ -98,5 +87,14 @@ public class LoginTest extends BaseClass {
                 { properties.getProperties("username2"), properties.getProperties("password2"), "locked_out_user" },
                 {properties.getProperties("username3"), properties.getProperties("password2"), "problem_users" }
         };
+    }
+
+
+    /**
+     * close browser
+     */
+    @AfterClass
+    public void CloseBrowser(){
+        tearDown();
     }
 }

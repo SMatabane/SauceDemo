@@ -6,10 +6,7 @@ import com.prime.pageobjects.LoginPage;
 import com.prime.pageobjects.OrderPage;
 import com.prime.utilities.ListenersClass;
 import org.apache.log4j.Logger;
-import org.testng.annotations.AfterClass;
-import org.testng.annotations.BeforeClass;
-import org.testng.annotations.Listeners;
-import org.testng.annotations.Test;
+import org.testng.annotations.*;
 
 import static org.testng.Assert.assertEquals;
 import static org.testng.Assert.assertTrue;
@@ -25,10 +22,10 @@ public class CartTest extends BaseClass {
     /**
      * set up browser
      */
-
+    @Parameters("browser")
     @BeforeClass
-    public void launch(){
-        setUp();
+    public void launch(String browser){
+        setUp(browser);
         login=new LoginPage();
         home=new CartPage();
         order=new OrderPage();
@@ -55,7 +52,7 @@ public class CartTest extends BaseClass {
      * view cart and verify list of items
      */
 
-    @Test(priority = 2)
+    @Test(priority = 2,dependsOnMethods = {"LogUser"})
     public void ViewCart(){
         home.OpenCart();
         int number=home.getItemsCount();
@@ -68,7 +65,7 @@ public class CartTest extends BaseClass {
      * Method for removing an item cart
      */
 
-    @Test(priority = 3)
+    @Test(priority = 3,dependsOnMethods = {"ViewCart"})
 
     public void RemoveItem(){
         home.removeItem();
@@ -84,7 +81,7 @@ public class CartTest extends BaseClass {
      * Method for proceeding to checkout
      */
 
-    @Test(priority = 4)
+    @Test(priority = 4,dependsOnMethods = {"ViewCart"})
     public void Checkout()
     {
        home.Checkout();
@@ -97,21 +94,19 @@ public class CartTest extends BaseClass {
      * Method for ordering items
      */
 
-    @Test(priority = 5)
+    @Test(priority = 5,dependsOnMethods = {"Checkout"})
     public void OrderItem(){
         assertTrue(order.order(),"The order is complete");
         login.LogOut();
     }
-
-
 
     /**
      * close browser
      */
 
     @AfterClass
-    public void tearDown(){
-        getDriver().quit();
+    public void CloseBrowser(){
+        tearDown();
     }
 
 
