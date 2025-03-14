@@ -1,0 +1,148 @@
+[2025-03-14 07:20:53] INFO  ListenersClass - Test suite started: Chrome Tests
+[2025-03-14 07:21:04] INFO  ListenersClass - Test started: Verifylink
+[2025-03-14 07:21:04] INFO  ListenersClass - Test started: LogUser
+[2025-03-14 07:21:04] INFO  ListenersClass - Test started: LogUser
+[2025-03-14 07:21:06] INFO  ActionsClass - Click Action is performed
+[2025-03-14 07:21:06] INFO  ActionsClass - Click Action is performed
+[2025-03-14 07:21:06] INFO  ActionsClass - Click Action is performed
+[2025-03-14 07:21:06] INFO  ActionsClass - Click Action is performed
+[2025-03-14 07:21:06] INFO  ActionsClass - Click Action is performed
+[2025-03-14 07:21:06] INFO  ActionsClass - Click Action is performed
+[2025-03-14 07:21:06] INFO  CartTest - Item added to cart
+[2025-03-14 07:21:06] INFO  ListenersClass - Test passed: LogUser
+[2025-03-14 07:21:06] INFO  ListenersClass - Test started: ViewCart
+[2025-03-14 07:21:06] INFO  ActionsClass - Click Action is performed
+[2025-03-14 07:21:06] INFO  LoginTest - products list are displayed
+[2025-03-14 07:21:06] INFO  ListenersClass - Test passed: LogUser
+[2025-03-14 07:21:06] INFO  ListenersClass - Test started: accountManagement
+[2025-03-14 07:21:07] INFO  ActionsClass - Click Action is performed
+[2025-03-14 07:21:07] INFO  CartTest - Items are available in cart. 
+[2025-03-14 07:21:07] INFO  ListenersClass - Test passed: ViewCart
+[2025-03-14 07:21:07] INFO  ListenersClass - Test started: RemoveItem
+[2025-03-14 07:21:07] INFO  ActionsClass - Click Action is performed
+[2025-03-14 07:21:07] ERROR HomePage -  Broken Link: https://www.saucedemo.com/inventory.html# | Response Code: 404
+[2025-03-14 07:21:07] ERROR HomePage -  Broken Link: https://www.saucedemo.com/inventory.html# | Response Code: 404
+[2025-03-14 07:21:07] ERROR HomePage -  Broken Link: https://www.saucedemo.com/inventory.html# | Response Code: 404
+[2025-03-14 07:21:07] INFO  CartTest - Item removed from cart
+[2025-03-14 07:21:07] INFO  ListenersClass - Test passed: RemoveItem
+[2025-03-14 07:21:07] INFO  ListenersClass - Test started: Checkout
+[2025-03-14 07:21:07] ERROR HomePage -  Broken Link: https://www.saucedemo.com/inventory.html# | Response Code: 404
+[2025-03-14 07:21:07] INFO  ActionsClass - Click Action is performed
+[2025-03-14 07:21:07] ERROR HomePage -  Broken Link: https://www.saucedemo.com/inventory.html# | Response Code: 404
+[2025-03-14 07:21:07] ERROR HomePage -  Broken Link: https://www.saucedemo.com/inventory.html# | Response Code: 404
+[2025-03-14 07:21:07] INFO  ActionsClass - Click Action is performed
+[2025-03-14 07:21:08] INFO  ActionsClass - Click Action is performed
+[2025-03-14 07:21:08] INFO  ListenersClass - Test passed: accountManagement
+[2025-03-14 07:21:08] INFO  ListenersClass - Test started: accountManagement
+[2025-03-14 07:21:08] INFO  ActionsClass - Click Action is performed
+[2025-03-14 07:21:08] INFO  IndexTest - products list are displayed
+[2025-03-14 07:21:08] INFO  ListenersClass - Test passed: Verifylink
+[2025-03-14 07:21:08] INFO  ListenersClass - Test started: verifyProductCount
+[2025-03-14 07:21:08] INFO  ActionsClass - Click Action is performed
+[2025-03-14 07:21:08] INFO  ActionsClass - Successfully Found element at
+[2025-03-14 07:21:08] INFO  ActionsClass - The element is Displayed
+[2025-03-14 07:21:08] INFO  CartTest - ------Checkout-------- 
+[2025-03-14 07:21:08] INFO  ListenersClass - Test passed: Checkout
+[2025-03-14 07:21:08] INFO  ListenersClass - Test started: OrderItem
+[2025-03-14 07:21:08] INFO  ActionsClass - Click Action is performed
+[2025-03-14 07:21:08] INFO  ActionsClass - Successfully Found element at
+[2025-03-14 07:21:08] INFO  ActionsClass - The element is Displayed
+[2025-03-14 07:21:09] INFO  ActionsClass - Click Action is performed
+[2025-03-14 07:21:09] INFO  ActionsClass - Click Action is performed
+[2025-03-14 07:21:09] INFO  ListenersClass - Test passed: OrderItem
+[2025-03-14 07:21:09] INFO  ActionsClass - Click Action is performed
+[2025-03-14 07:21:09] INFO  ListenersClass - Test passed: accountManagement
+[2025-03-14 07:21:09] INFO  ListenersClass - Test started: veryfyErrorText
+[2025-03-14 07:21:09] INFO  ActionsClass - Click Action is performed
+[2025-03-14 07:21:09] INFO  IndexTest - Number of products displayed: 6
+[2025-03-14 07:21:09] INFO  ListenersClass - Test passed: verifyProductCount
+[2025-03-14 07:21:09] INFO  ListenersClass - Test started: verifyLowToHighSorting
+[2025-03-14 07:21:10] INFO  IndexTest - Items sorted by price: 
+[2025-03-14 07:21:10] INFO  ListenersClass - Test passed: verifyLowToHighSorting
+[2025-03-14 07:21:10] INFO  ListenersClass - Test started: verifyProductDetails
+[2025-03-14 07:21:10] INFO  ActionsClass - Click Action is performed
+[2025-03-14 07:21:10] INFO  IndexTest - actual :Sauce Labs Backpack
+ expected: Sauce Labs Backpack
+[2025-03-14 07:21:10] INFO  ListenersClass - Test passed: verifyProductDetails
+[2025-03-14 07:21:14] ERROR ListenersClass - Test failed: veryfyErrorText
+[2025-03-14 07:21:15] INFO  ListenersClass - Test started: veryfyLogedOut
+[2025-03-14 07:21:15] INFO  ActionsClass - Click Action is performed
+[2025-03-14 07:21:15] INFO  ActionsClass - Click Action is performed
+[2025-03-14 07:21:15] INFO  ActionsClass - Successfully Found element at
+[2025-03-14 07:21:15] INFO  ActionsClass - The element is Displayed
+[2025-03-14 07:21:15] INFO  ListenersClass - Test passed: veryfyLogedOut
+[2025-03-14 07:21:16] INFO  ListenersClass - Test suite finished: Chrome Tests
+[2025-03-14 07:21:16] INFO  ListenersClass - Test suite started: Edge Tests
+[2025-03-14 07:21:24] INFO  ListenersClass - Test started: Verifylink
+[2025-03-14 07:21:24] INFO  ListenersClass - Test started: LogUser
+[2025-03-14 07:21:24] INFO  ListenersClass - Test started: LogUser
+[2025-03-14 07:21:25] INFO  ActionsClass - Click Action is performed
+[2025-03-14 07:21:25] ERROR HomePage -  Broken Link: https://www.saucedemo.com/inventory.html# | Response Code: 404
+[2025-03-14 07:21:25] ERROR HomePage -  Broken Link: https://www.saucedemo.com/inventory.html# | Response Code: 404
+[2025-03-14 07:21:25] ERROR HomePage -  Broken Link: https://www.saucedemo.com/inventory.html# | Response Code: 404
+[2025-03-14 07:21:25] ERROR HomePage -  Broken Link: https://www.saucedemo.com/inventory.html# | Response Code: 404
+[2025-03-14 07:21:25] ERROR HomePage -  Broken Link: https://www.saucedemo.com/inventory.html# | Response Code: 404
+[2025-03-14 07:21:25] ERROR HomePage -  Broken Link: https://www.saucedemo.com/inventory.html# | Response Code: 404
+[2025-03-14 07:21:25] INFO  ActionsClass - Click Action is performed
+[2025-03-14 07:21:26] INFO  ActionsClass - Click Action is performed
+[2025-03-14 07:21:26] INFO  ActionsClass - Click Action is performed
+[2025-03-14 07:21:26] INFO  ActionsClass - Click Action is performed
+[2025-03-14 07:21:26] INFO  IndexTest - products list are displayed
+[2025-03-14 07:21:26] INFO  ListenersClass - Test passed: Verifylink
+[2025-03-14 07:21:26] INFO  ListenersClass - Test started: verifyProductCount
+[2025-03-14 07:21:26] INFO  ActionsClass - Click Action is performed
+[2025-03-14 07:21:26] INFO  ActionsClass - Click Action is performed
+[2025-03-14 07:21:26] INFO  ActionsClass - Click Action is performed
+[2025-03-14 07:21:26] INFO  CartTest - Item added to cart
+[2025-03-14 07:21:26] INFO  ListenersClass - Test passed: LogUser
+[2025-03-14 07:21:26] INFO  ListenersClass - Test started: ViewCart
+[2025-03-14 07:21:26] INFO  ActionsClass - Click Action is performed
+[2025-03-14 07:21:26] INFO  LoginTest - products list are displayed
+[2025-03-14 07:21:26] INFO  ListenersClass - Test passed: LogUser
+[2025-03-14 07:21:26] INFO  ListenersClass - Test started: accountManagement
+[2025-03-14 07:21:26] INFO  ActionsClass - Click Action is performed
+[2025-03-14 07:21:26] INFO  CartTest - Items are available in cart. 
+[2025-03-14 07:21:26] INFO  ListenersClass - Test passed: ViewCart
+[2025-03-14 07:21:26] INFO  ListenersClass - Test started: RemoveItem
+[2025-03-14 07:21:26] INFO  ActionsClass - Click Action is performed
+[2025-03-14 07:21:27] INFO  CartTest - Item removed from cart
+[2025-03-14 07:21:27] INFO  ListenersClass - Test passed: RemoveItem
+[2025-03-14 07:21:27] INFO  ListenersClass - Test started: Checkout
+[2025-03-14 07:21:27] INFO  ActionsClass - Click Action is performed
+[2025-03-14 07:21:27] INFO  ActionsClass - Click Action is performed
+[2025-03-14 07:21:27] INFO  IndexTest - Number of products displayed: 6
+[2025-03-14 07:21:27] INFO  ListenersClass - Test passed: verifyProductCount
+[2025-03-14 07:21:27] INFO  ListenersClass - Test started: verifyLowToHighSorting
+[2025-03-14 07:21:27] INFO  ActionsClass - Click Action is performed
+[2025-03-14 07:21:27] INFO  IndexTest - Items sorted by price: 
+[2025-03-14 07:21:27] INFO  ListenersClass - Test passed: verifyLowToHighSorting
+[2025-03-14 07:21:27] INFO  ListenersClass - Test started: verifyProductDetails
+[2025-03-14 07:21:27] INFO  ListenersClass - Test passed: accountManagement
+[2025-03-14 07:21:27] INFO  ListenersClass - Test started: accountManagement
+[2025-03-14 07:21:28] INFO  ActionsClass - Click Action is performed
+[2025-03-14 07:21:28] INFO  ActionsClass - Click Action is performed
+[2025-03-14 07:21:28] INFO  IndexTest - actual :Sauce Labs Backpack
+ expected: Sauce Labs Backpack
+[2025-03-14 07:21:28] INFO  ListenersClass - Test passed: verifyProductDetails
+[2025-03-14 07:21:28] INFO  ActionsClass - Successfully Found element at
+[2025-03-14 07:21:28] INFO  ActionsClass - The element is Displayed
+[2025-03-14 07:21:28] INFO  CartTest - ------Checkout-------- 
+[2025-03-14 07:21:28] INFO  ListenersClass - Test passed: Checkout
+[2025-03-14 07:21:28] INFO  ListenersClass - Test started: OrderItem
+[2025-03-14 07:21:28] INFO  ActionsClass - Click Action is performed
+[2025-03-14 07:21:28] INFO  ActionsClass - Successfully Found element at
+[2025-03-14 07:21:28] INFO  ActionsClass - The element is Displayed
+[2025-03-14 07:21:28] INFO  ActionsClass - Click Action is performed
+[2025-03-14 07:21:28] INFO  ActionsClass - Click Action is performed
+[2025-03-14 07:21:28] INFO  ListenersClass - Test passed: OrderItem
+[2025-03-14 07:21:29] INFO  ActionsClass - Click Action is performed
+[2025-03-14 07:21:29] INFO  ListenersClass - Test passed: accountManagement
+[2025-03-14 07:21:29] INFO  ListenersClass - Test started: veryfyErrorText
+[2025-03-14 07:21:34] ERROR ListenersClass - Test failed: veryfyErrorText
+[2025-03-14 07:21:34] INFO  ListenersClass - Test started: veryfyLogedOut
+[2025-03-14 07:21:34] INFO  ActionsClass - Click Action is performed
+[2025-03-14 07:21:35] INFO  ActionsClass - Click Action is performed
+[2025-03-14 07:21:35] INFO  ActionsClass - Successfully Found element at
+[2025-03-14 07:21:35] INFO  ActionsClass - The element is Displayed
+[2025-03-14 07:21:35] INFO  ListenersClass - Test passed: veryfyLogedOut
+[2025-03-14 07:21:36] INFO  ListenersClass - Test suite finished: Edge Tests

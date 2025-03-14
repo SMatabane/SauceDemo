@@ -19,16 +19,16 @@
 
     </test>
 
-    <!-- Firefox tests -->
-    <test name="Firefox Tests">
-        <parameter name="browser" value="firefox"/>
-        <classes>
-            <class name="com.prime.testcases.LoginTest" />
-            <class name="com.prime.testcases.IndexTest" />
-            <class name="com.prime.testcases.CartTest" />
-        </classes>
+<!--    &lt;!&ndash; Firefox tests &ndash;&gt;-->
+<!--    <test name="Firefox Tests">-->
+<!--        <parameter name="browser" value="firefox"/>-->
+<!--        <classes>-->
+<!--            <class name="com.prime.testcases.LoginTest" />-->
+<!--            <class name="com.prime.testcases.IndexTest" />-->
+<!--            <class name="com.prime.testcases.CartTest" />-->
+<!--        </classes>-->
 
-    </test>
+<!--    </test>-->
 
      
     <test name="Edge Tests">

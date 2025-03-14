@@ -63,6 +63,7 @@ public class LoginTest extends BaseClass {
         } else {
 
             assertTrue(home.areProductsDisplayed(),"Items not displayed");
+            login.LogOut();
         }
 
 
